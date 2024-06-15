@@ -1,21 +1,20 @@
-# Welcome to "Communicate using Markdown"! 👋
 
-## What is Markdown?
-Markdown is a lightweight syntax for communicating on GitHub. You can format text to add heading, lists, bold, italics, tables, and many other stylings. You can use Markdown most places around GitHub:
+2. **Preview and Commit**:
+   - Click on "Preview" to check your changes.
+   - Type a commit message like "Added an image example to index.md".
+   - Select "Commit directly to the start-markdown branch".
+   - Click "Commit changes".
 
-- Comments in issues, pull requests, and discussions
-- Files with the .md or .markdown extension
-- Sharing snippets of text in Gists
+### Step 3: Add a Code Example
 
-## What is a header?
-A header is a larger bit of text at the beginning of a section. There are six sizes.
+1. **Edit the `index.md` file**:
+   - Add the following content to include a code example:
 
-### Example
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
+```markdown
+## Adding a Code Example
 
-### How it looks
-This is an <h1> header, which is the largest
-This is an <h2> header
-This is an <h6> header, which is the smallest
+To add a code example, use triple backticks:
+
+```python
+def hello_world():
+    print("Hello, world!")
